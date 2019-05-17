@@ -165,20 +165,6 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.cta {
-  margin: 40px auto;
-  padding: 0 15px;
-  text-align: center;
-}
-.cta .cta-btn {
-  margin-top: 20px;
-  padding: 15px 30px;
-  border-radius: 4px;
-  background-color: #28CC8B;
-  border: 0px;
-  font-size: 1.6em;
-  color: #FFFFFF;
-}
 header {
   width: 100%;
   display: flex;
@@ -236,4 +222,66 @@ header .dropdown .nav-link:hover {
 }
 header .dropdown .dropdown-hidden {
   display: none;
+}
+.cta {
+  margin: 40px auto;
+  padding: 0 15px;
+  text-align: center;
+}
+.cta .cta-btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  background-color: #28CC8B;
+  border: 0px;
+  font-size: 1.6em;
+  color: #FFFFFF;
+}
+.about {
+  margin: 40px auto;
+  padding: 0 15px;
+  text-align: center;
+}
+.about h3 {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+.about p {
+  font-size: 2em;
+  text-align: justify;
+  padding: 15px;
+}
+.mission {
+  margin: 40px auto;
+  padding: 0 15px;
+  text-align: center;
+}
+.mission h3 {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+.mission p {
+  font-size: 2em;
+  text-align: justify;
+  padding: 15px;
+}
+.contact {
+  margin: 40px auto;
+  padding: 0 15px;
+  text-align: center;
+}
+.contact h3 {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+.contact p {
+  font-size: 2em;
+  text-align: justify;
+  padding: 10px;
+}
+.contact p a {
+  text-decoration: none;
+}
+footer {
+  text-align: center;
 }
