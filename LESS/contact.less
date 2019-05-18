@@ -1,20 +1,18 @@
 .contact {
-    margin: 40px auto;
-    padding: 0 15px;
-    text-align: center;
-
-    h3 {
-        font-size: 3.5em;
-        font-weight: bold;
-    }
-
     p {
-        font-size: 2em;
-        text-align: justify;
         padding: 10px;
 
         a {
             text-decoration: none;
+            color: @link-color;
+
+            &hover {
+                color: @btn-color;
+            }
+        }
+
+        @media @tablet {
+            text-align: center;
         }
     }
 }

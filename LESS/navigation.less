@@ -2,25 +2,39 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
 
     img {
         width: 15%;
         height: 100%;
-    }
+
+        @media @tablet {
+            width: 10%;
+        }
+
+        @media @desktop {
+            width: 6%;
+        }
+}
 
     .nav-flex {
-        width: 100%;
-        max-width: 880px;
+        width: 96%;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-
+        margin-top: 15px;
+        
         h1 {
-            font-size: 5em;
+            font-size: 3.3rem;
             font-weight: bold;
-            text-align: center;
+
+            @media @tablet {
+                font-size: 6rem;
+            }
+             
+            a {
+                text-decoration: none;
+                color: @font-color;
+            }
         }
     }
 
@@ -29,14 +43,13 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 25%;
         cursor: pointer;
 
         .dropdown-btn {
             background-color: @second-background-color;
-            padding: 12px 20px;
+            padding: 9px 10px;
+            border: 1px solid @font-color;
             border-radius: 4px;
-            margin: 10px 25px;
             font-size: 2em;
         }
 
