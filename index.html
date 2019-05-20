@@ -18,42 +18,54 @@
         
         <div class="nav-flex">
 
-        <img src="./assets/logo.png" class="logo" alt="Mentor Me logo"/>
+        <a href="index.html" alt="logo links to home page"><img src="./assets/logo.png" class="logo" alt="Mentor Me logo"/></a>
         
-        <h1><a href="index.html">MentorMe</a></h1>
+        <h1><a href="index.html" alt="Title links to Home page">MentorMe</a></h1>
 
-        <div class="nav-container dropdown">
+        <nav class="navbar">
 
-            <div class="dropdown-btn">Menu</div>
+            <div class="dropdown-btn navbar-toggle" id="js-navbar-toggle">Menu</div>
 
-                <div class="dropdown-content dropdown-hidden">
-    
-                    <nav class="nav">
-                        <a class="nav-link" href="index.html">Home</a>
-                        <a class="nav-link" href="#">About</a>
-                        <a class="nav-link" href="#">Mission</a>
-                        <a class="nav-link" href="#">Contact</a>
-                        <a class="nav-link" href="team.html">Team</a>
-                    </nav>
-    
-                </div> <!-- end of dropdown-content dropdown-hidden -->
-    
-            </div> <!-- end of container nav-container -->
+            <div class="dropdown-content">
 
-        </div>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="index.html" class="nav-links">Home</a>
+                    </li>
 
-        
+                    <li>
+                        <a href="#about" class="nav-links">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#mission" class="nav-links">Mission</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav-links">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="team.html" class="nav-links">Team</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+        </div> <!-- end of nav-flex -->
 
     </header> <!-- end of main-navigation -->
 
 
     <div class="container home">
 
-        <section class="cta">
+        <section id="cta" class="cta">
 
             <div class="top-section">
 
-            <h2>Entrepreneurs often cite mentoring as a critical <br>part of their success.</h2>
+            <h2>Entrepreneurs often cite mentoring as a <br> critical part of their <br> success.</h2>
             <button class="cta-btn">Find A Mentor</button>
 
             </div> <!-- end of top-section -->
@@ -63,7 +75,7 @@
         </section> <!-- end of cta -->
 
 
-        <section class="about">
+        <section id="about" class="about">
 
             <div class="top-about">
     
@@ -78,7 +90,7 @@
         </section> <!-- end of about -->
 
 
-        <section class="mission">
+        <section id="mission" class="mission">
 
             <div class="bottom-mission">
 
@@ -93,7 +105,7 @@
         </section> <!-- end of mission -->
 
 
-        <section class="contact">
+        <section id="contact" class="contact">
 
             <div class="top-contact">
 
@@ -124,5 +136,7 @@
     </div> <!-- end of container home -->
 
 </body>
+
+<script src="./JS/dropdown.js"></script>
 
 </html>

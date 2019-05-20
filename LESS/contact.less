@@ -1,6 +1,30 @@
 .contact {
+
+    @media @highres {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 72px;
+    
+        .top-about {
+            display: flex;
+            justify-content: center;
+            flex-flow: column;
+            align-items: center;
+        }
+    
+        img {
+            width: 60%;
+            height: 100%;;
+        }
+    
+        p {
+            font-size: 2rem;
+        }
+    }
+
     p {
         padding: 10px;
+        text-align: center;
 
         a {
             text-decoration: none;
@@ -11,8 +35,10 @@
             }
         }
 
-        @media @tablet {
-            text-align: center;
-        }
+        
+            
+    
     }
 }
+
+
