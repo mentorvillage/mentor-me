@@ -167,6 +167,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
 .content-img {
   width: 98%;
   height: 100%;
@@ -176,11 +181,10 @@ img {
   border: 2px solid #3C42E5;
 }
 section {
-  margin: 40px auto;
-  padding: 0 15px;
   text-align: center;
 }
 header {
+  max-width: 1200px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -235,6 +239,7 @@ header .nav-flex .navbar-toggle {
   cursor: pointer;
 }
 header .nav-flex .dropdown-content {
+  max-width: 1200px;
   width: 100%;
   position: absolute;
   display: flex;
@@ -303,18 +308,17 @@ header .nav-flex .active {
   .cta {
     display: flex;
     justify-content: flex-end;
-    margin-top: 72px;
+    margin-top: 52px;
   }
   .cta .top-section {
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
-    width: 43%;
-    border: 1px solid red;
+    width: 48%;
   }
   .cta img {
-    width: 55%;
+    width: 50%;
     height: 100%;
   }
 }
@@ -343,20 +347,18 @@ header .nav-flex .active {
   .about {
     display: flex;
     justify-content: flex-end;
-    margin-top: 72px;
+    margin-top: 52px;
   }
   .about .top-about {
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
+    width: 48%;
   }
   .about img {
-    width: 60%;
+    width: 50%;
     height: 100%;
-  }
-  .about p {
-    font-size: 2rem;
   }
 }
 @media (min-width: 1024px) {
@@ -370,13 +372,11 @@ header .nav-flex .active {
     justify-content: center;
     flex-flow: column;
     align-items: center;
+    width: 48%;
   }
   .mission img {
-    width: 60%;
+    width: 50%;
     height: 100%;
-  }
-  .mission p {
-    font-size: 2rem;
   }
 }
 @media (min-width: 1024px) {
@@ -385,14 +385,15 @@ header .nav-flex .active {
     justify-content: flex-end;
     margin-top: 72px;
   }
-  .contact .top-about {
+  .contact .top-contact {
     display: flex;
     justify-content: center;
     flex-flow: column;
     align-items: center;
+    width: 48%;
   }
   .contact img {
-    width: 60%;
+    width: 50%;
     height: 100%;
   }
   .contact p {
