@@ -51,7 +51,7 @@
   }
 
   .content-img {
-    width: 98%;
+    width: 100%;
     height: 100%;
     display: block;
     margin: 20px auto;
@@ -59,8 +59,15 @@
     border: 2px solid @second-background-color;
   }
 
-  .content {
-    padding-right: 25px;
+  .home {
+    width: 93%;
+    text-align: center;
+    margin-top: 10%;
+
+    @media @highres {
+      width: 100%;
+      margin-top: 2%;
+    }
   }
 
   section {
