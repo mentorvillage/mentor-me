@@ -168,7 +168,7 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
 }
@@ -189,6 +189,12 @@ img {
   .home {
     width: 100%;
     margin-top: 2%;
+  }
+}
+@media (min-width: 1024px) {
+  .content {
+    margin-right: 25px;
+    padding-right: 10px;
   }
 }
 section {
@@ -424,5 +430,8 @@ footer p {
 }
 footer p a {
   text-decoration: none;
+  color: #FFFFFF;
+}
+footer p a:hover {
   color: #FFC966;
 }
