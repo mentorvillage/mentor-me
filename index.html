@@ -14,94 +14,106 @@
 
 <body>
 
-    <header class="main-navigation">
-
-        <img src="./assets/logo.png" class="logo" alt="Mentor Me logo"/>
+    <header id="home" class="main-navigation">
         
         <div class="nav-flex">
-        <h1>MentorMe</h1>
-        </div>
 
-        <div class="container nav-container dropdown">
+        <a href="index.html" alt="logo links to home page"><img src="./assets/logo.png" class="logo" alt="Mentor Me logo"/></a>
+        
+        <h1><a href="index.html" alt="Title links to Home page">MentorMe</a></h1>
 
-            <div class="dropdown-btn">Menu</div>
-            <div class="dropdown-content dropdown-hidden">
+        <nav class="navbar">
 
-                <nav class="nav">
-                    <a class="nav-link" href="index.html">Home</a>
-                    <a class="nav-link" href="#">About</a>
-                    <a class="nav-link" href="#">Mission</a>
-                    <a class="nav-link" href="#">Contact</a>
-                    <a class="nav-link" href="team.html">Team</a>
-                </nav>
+            <div class="dropdown-btn navbar-toggle" id="js-navbar-toggle">Menu</div>
 
-            </div> <!-- end of dropdown-content dropdown-hidden -->
+            <div class="dropdown-content">
 
-        </div> <!-- end of container nav-container -->
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="index.html" class="nav-links">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="nav-links">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#mission" class="nav-links">Mission</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav-links">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="team.html" class="nav-links">Team</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+        </div> <!-- end of nav-flex -->
 
     </header> <!-- end of main-navigation -->
 
 
     <div class="container home">
 
-        <section class="cta">
+        <section id="cta" class="cta">
 
-            <div class="top-section">
+            <div class="top-section content">
 
-            <h2>Entrepreneurs often cite mentoring as a critical <br>part of their success.</h2>
+            <h2>Entrepreneurs often cite mentoring as a <br> critical part of their <br> success.</h2>
             <button class="cta-btn">Find A Mentor</button>
 
             </div> <!-- end of top-section -->
 
-            <img src="./assets/ladder.jpg" alt="Ladder"/>
+            <img src="./assets/ladder.jpg" class="content-img js-img" alt="Ladder"/>
 
         </section> <!-- end of cta -->
 
 
-        <section class="about">
+        <section id="about" class="about">
 
-            <div class="top-about">
+            <div class="top-about content">
     
                 <h3>About</h3>
-                <p>New entrepreneurs often have a lot of questions, but don’t always have a mentor to ask. As an entrepreneur, whenever you need a business advice, our volunteers are happy to help. By posting your questions, you can communicate directly and solve a problem.</p><br>
-                <p>As an experienced business owner you can help pay it forward just by installing the Be My Mentor app.</p>
+                <p>New entrepreneurs often have a lot of questions, but don’t always have a mentor to ask. As an entrepreneur, whenever you need business advice, our volunteers are happy to help. By posting your questions, you can communicate directly and solve a problem.</p><br>
+                <p>As an experienced business owner you can help pay it forward just by installing MentorMe.</p>
                 
             </div> <!-- end of top-about -->
     
-            <img src="./assets/bridge.jpg" alt="Bridge"/>
+            <img src="./assets/bridge.jpg" class="content-img js-img" alt="Bridge"/>
     
         </section> <!-- end of about -->
 
 
-        <section class="mission">
+        <section id="mission" class="mission">
 
-
-            <img src="./assets/joy.jpg" alt="joy"/>
-
-
-            <div class="bottom-mission">
+            <div class="bottom-mission content">
 
                 <h3>Mission</h3>
                 <p>“A mentor is someone who allows you to see the hope inside yourself.” — Oprah Winfrey.</p>
-                <p>Our mission is to connect entrepreneurs with the right mentors. Mentor can lend an ear, a brain to pick, and push in the right direction. Let’s create a positive and resourceful community for the future leaders of our world.</p>
+                <p>Our mission is to connect entrepreneurs with the right mentors. Mentors who can lend an ear, a brain to pick, and push you in the right direction. Let’s create a positive and resourceful community for the future leaders of our world.</p>
 
             </div> <!-- end of bottom-mission -->
 
-            <img src="./assets/mentorme_logo.png" alt="PLACEHOLDER IMAGE"/>
+            <img src="./assets/joy.jpg" class="content-img js-img" alt="joy"/>
 
         </section> <!-- end of mission -->
 
 
-        <section class="contact">
+        <section id="contact js-dark" class="contact">
 
-            <div class="top-contact">
-                <img src="./assets/great.jpg" alt="joy"/>
+            <div class="top-contact content">
 
                 <h3>Contact</h3>
-                <p>Are you an entrepreneur looking for help?<br>
-                  Are you a business owner looking to give help?</p>
+                <p>Are you an entrepreneur looking for help?</p>
+                <p>Are you a business owner looking to give help?</p>
                   
-                  <p>Please feel free to contact us:</p>
+                <p>Please feel free to contact us:</p>
                 
                 <p>123 Ave 456 BLVD<br> New York, NY 10004</p>
 
@@ -111,16 +123,23 @@
                 
             </div> <!-- end of top-contact -->
 
+            <img src="./assets/great.jpg" class="content-img js-img" alt="joy"/>
+
         </section> <!-- end of contact -->
 
+    </div> <!-- end of container home -->
     
         <footer>
 
                 <p>Copyright MentorMe! 2019</p>
-
+                <p><a href="#home">Top of the page</a></p>
         </footer>
-    </div> <!-- end of container home -->
+    
 
 </body>
+
+<script src="./JS/dropdown.js"></script>
+<script src="./JS/hover.js"></script>
+<script src="./JS/darkmode.js"></script>
 
 </html>

@@ -1,20 +1,41 @@
 .contact {
-    margin: 40px auto;
-    padding: 0 15px;
-    text-align: center;
 
-    h3 {
-        font-size: 3.5em;
-        font-weight: bold;
+    @media @highres {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 72px;
+    
+        .top-contact {
+            display: flex;
+            justify-content: center;
+            flex-flow: column;
+            align-items: center;
+            width: 48%;
+        }
+    
+        img {
+            width: 50%;
+            height: 100%;;
+        }
     }
 
     p {
-        font-size: 2em;
-        text-align: justify;
-        padding: 10px;
+        text-align: center;
+        line-height: 1;
 
         a {
             text-decoration: none;
+            color: @link-color;
+
+            &hover {
+                color: @btn-color;
+            }
         }
+
+        
+            
+    
     }
 }
+
+

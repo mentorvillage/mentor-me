@@ -1,16 +1,20 @@
 .about {
-    margin: 40px auto;
-    padding: 0 15px;
-    text-align: center;
+    @media @highres {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 52px;
 
-    h3 {
-        font-size: 3.5em;
-        font-weight: bold;
-    }
+        .top-about {
+            display: flex;
+            justify-content: center;
+            flex-flow: column;
+            align-items: center;
+            width: 48%;
+        }
 
-    p {
-        font-size: 2em;
-        text-align: justify;
-        padding: 15px;
+        img {
+            width: 50%;
+            height: 100%;
+        }
     }
 } 
