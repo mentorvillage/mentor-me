@@ -49,11 +49,15 @@ header {
 
         .navbar-toggle {
             background-color: @second-background-color;
-            padding: 10px 10px;
+            padding: 11px 18px;
             border: 1px solid @font-color;
             border-radius: 4px;
             font-size: 2em;
             cursor: pointer;
+
+            @media @tablet {
+                padding: 12px 24px;
+            }
           }
 
           .dropdown-content {

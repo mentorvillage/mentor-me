@@ -249,11 +249,16 @@ header .nav-flex .navbar {
 }
 header .nav-flex .navbar-toggle {
   background-color: #3C42E5;
-  padding: 10px 10px;
+  padding: 11px 18px;
   border: 1px solid #FFFFFF;
   border-radius: 4px;
   font-size: 2em;
   cursor: pointer;
+}
+@media (min-width: 600px) {
+  header .nav-flex .navbar-toggle {
+    padding: 12px 24px;
+  }
 }
 header .nav-flex .dropdown-content {
   max-width: 1200px;
