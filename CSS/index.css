@@ -455,3 +455,100 @@ footer p a:hover {
   color: #FFC966;
   transition: all 0.4s ease 0s;
 }
+.row {
+  width: 100%;
+  margin: 7% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 1024px) {
+  .row {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+/* Three columns side by side */
+.column {
+  width: 96%;
+  margin-bottom: 20px;
+}
+@media (min-width: 1024px) {
+  .column {
+    width: 30%;
+    margin: 0;
+  }
+}
+/* Add some shadows to create a card effect */
+.cards {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.cards img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+@media (min-width: 1024px) {
+  .cards img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* Some left and right padding inside the container */
+.container-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-card h2 {
+  font-size: 5rem;
+  margin-top: 20px;
+}
+@media (min-width: 1024px) {
+  .container-card h2 {
+    font-size: 4rem;
+  }
+}
+.container-card p {
+  font-size: 2.2rem;
+}
+@media (min-width: 1024px) {
+  .container-card p {
+    font-size: 1.6rem;
+  }
+}
+.container-card .text-dog {
+  font-size: 1.6rem;
+}
+@media (min-width: 1024px) {
+  .container-card .text-dog {
+    font-size: 1.4rem;
+  }
+}
+.container-card .title {
+  color: #FFFFFF;
+}
+.container-card .button {
+  margin: 25px auto;
+  padding: 14px 29px;
+  border-radius: 4px;
+  background-color: #28CC8B;
+  border: 0px;
+  font-size: 1.9rem;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+.container-card .button:hover {
+  background-color: #FFC966;
+  color: #3C42E5;
+  transition: all 0.4s ease 0s;
+}
+footer {
+  width: 100%;
+  height: 100%;
+}
