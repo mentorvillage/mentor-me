@@ -30,3 +30,9 @@ Be My Mentor lets you lend your business skills to an entrepreneurs across the g
 ## Stretch:
 
 Allow photos or files to be attached to a posted question. Allow an entrepreneur to request a call with a mentor for a fee.
+
+## Getting Started:
+
+- For this repository to your local machine
+- Open index.html
+- All image assets are in the assets folder.
