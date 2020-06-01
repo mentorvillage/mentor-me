@@ -191,12 +191,15 @@ h2 {
   width: 98%;
 }
 h3 {
-  font-size: 3.2rem;
+  font-size: 3.5rem;
   font-weight: bold;
+  margin: 40px auto;
 }
 p {
   font-size: 2rem;
   line-height: 1.4;
+  text-align: justify;
+  padding: 15px;
 }
 
 .content-img {
@@ -301,7 +304,7 @@ CTA
   height: 50px;
   background-color: var(--cta-btn-color);
   border: 0px;
-  font-size: 1.9em;
+  font-size: 3em;
   color: var(--font-color);
   font-weight: bold;
 }
@@ -309,6 +312,38 @@ CTA
   background-color: var(--link-color);
   color: var(--second-bg-color);
   transition: all 0.4s ease 0s;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+.contact p {
+  text-align: center;
+  line-height: 1;
+}
+
+.contact p a {
+  color: var(--link-color);
+}
+
+.contact .social-icons-hp {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.contact .social-icons-hp a {
+  color: var(--font-color);
+}
+
+/*
+  footer
+*/
+footer p {
+  text-align: center;
 }
 
 /*
@@ -362,7 +397,9 @@ Media Queries
     display: none;
   }
 
-  .cta {
+  .cta,
+  .about,
+  .mission .contact {
     display: flex;
     justify-content: flex-end;
     margin-top: 60px;
@@ -374,9 +411,37 @@ Media Queries
     align-items: center;
     width: 48%;
   }
-  .cta img {
+
+  .cta h2 {
+    font-size: 3rem;
+  }
+  .cta img,
+  .about img,
+  .mission img,
+  .contact img {
     width: 50%;
     height: 100%;
+  }
+
+  .about .top-about {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    width: 48%;
+  }
+  .about h3 {
+    margin: 0;
+  }
+  .about h3,
+  .contact h3 {
+    margin-top: 20px;
+  }
+  .mission h3 {
+    margin: 0;
+  }
+  .contact p {
+    margin-bottom: 0;
   }
 }
 
