@@ -1,148 +1,175 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MentorMe</title>
-    
+
     <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-  
-</head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
-
+  <body>
     <header id="home" class="main-navigation">
-        
-        <div class="nav-flex">
+      <div class="nav-flex">
+        <a href="index.html" alt="logo links to home page"
+          ><img
+            src="./assets/mentorme_logo.png"
+            class="logo"
+            alt="Mentor Me logo"
+        /></a>
 
-        <a href="index.html" alt="logo links to home page"><img src="./assets/mentorme_logo.png" class="logo" alt="Mentor Me logo"/></a>
-        
-        <h1><a href="index.html" alt="Title links to Home page">MentorMe</a></h1>
+        <h1>
+          <a href="index.html" alt="Title links to Home page">MentorMe</a>
+        </h1>
 
         <nav class="navbar">
+          <div class="dropdown-btn navbar-toggle" id="js-navbar-toggle">
+            Menu
+          </div>
 
-            <div class="dropdown-btn navbar-toggle" id="js-navbar-toggle">Menu</div>
+          <div class="dropdown-content">
+            <ul class="main-nav" id="js-menu">
+              <li>
+                <a href="index.html" class="nav-links">Home</a>
+              </li>
 
-            <div class="dropdown-content">
+              <li>
+                <a href="#about" class="nav-links">About</a>
+              </li>
 
-                <ul class="main-nav" id="js-menu">
-                    <li>
-                        <a href="index.html" class="nav-links">Home</a>
-                    </li>
+              <li>
+                <a href="#mission" class="nav-links">Mission</a>
+              </li>
 
-                    <li>
-                        <a href="#about" class="nav-links">About</a>
-                    </li>
+              <li>
+                <a href="#contact" class="nav-links">Contact</a>
+              </li>
 
-                    <li>
-                        <a href="#mission" class="nav-links">Mission</a>
-                    </li>
-
-                    <li>
-                        <a href="#contact" class="nav-links">Contact</a>
-                    </li>
-
-                    <li>
-                        <a href="team.html" class="nav-links">Team</a>
-                    </li>
-
-                </ul>
-            </div>
-
+              <li>
+                <a href="team.html" class="nav-links">Team</a>
+              </li>
+            </ul>
+          </div>
         </nav>
-
-        </div> <!-- end of nav-flex -->
-
-    </header> <!-- end of main-navigation -->
-
+      </div>
+      <!-- end of nav-flex -->
+    </header>
+    <!-- end of main-navigation -->
 
     <div class="container home">
+      <section id="cta" class="cta">
+        <div class="top-section content">
+          <h2>
+            Entrepreneurs often cite mentoring as a critical part of their
+            success.
+          </h2>
+          <button class="cta-btn">Find A Mentor</button>
+        </div>
+        <!-- end of top-section -->
 
-        <section id="cta" class="cta">
+        <img
+          src="./assets/ladder.jpg"
+          class="content-img js-img"
+          alt="Ladder"
+        />
+      </section>
+      <!-- end of cta -->
 
-            <div class="top-section content">
+      <section id="about" class="about">
+        <div class="top-about content">
+          <h3>About</h3>
+          <p>
+            New entrepreneurs often have a lot of questions, but don’t always
+            have a mentor to ask. As an entrepreneur, whenever you need business
+            advice, our volunteers are happy to help. By posting your questions,
+            you can communicate directly and solve a problem.
+          </p>
+          <br />
+          <p>
+            As an experienced business owner you can help pay it forward just by
+            installing MentorMe.
+          </p>
+        </div>
+        <!-- end of top-about -->
 
-            <h2>Entrepreneurs often cite mentoring as a <br> critical part of their <br> success.</h2>
-            <button class="cta-btn">Find A Mentor</button>
+        <img
+          src="./assets/bridge.jpg"
+          class="content-img js-img"
+          alt="Bridge"
+        />
+      </section>
+      <!-- end of about -->
 
-            </div> <!-- end of top-section -->
+      <section id="mission" class="mission">
+        <div class="bottom-mission content">
+          <h3>Mission</h3>
+          <p>
+            “A mentor is someone who allows you to see the hope inside
+            yourself.” — Oprah Winfrey.
+          </p>
+          <p>
+            Our mission is to connect entrepreneurs with the right mentors.
+            Mentors who can lend an ear, a brain to pick, and push you in the
+            right direction. Let’s create a positive and resourceful community
+            for the future leaders of our world.
+          </p>
+        </div>
+        <!-- end of bottom-mission -->
 
-            <img src="./assets/ladder.jpg" class="content-img js-img" alt="Ladder"/>
+        <img src="./assets/joy.jpg" class="content-img js-img" alt="joy" />
+      </section>
+      <!-- end of mission -->
 
-        </section> <!-- end of cta -->
+      <section id="contact" class="contact">
+        <div class="top-contact content">
+          <h3>Contact</h3>
+          <p>
+            Are you an entrepreneur looking for help? Are you a business owner
+            looking to give help?
+          </p>
 
+          <p>Please feel free to contact us:</p>
 
-        <section id="about" class="about">
+          <p>
+            123 Ave 456 BLVD<br />
+            New York, NY 10004
+          </p>
 
-            <div class="top-about content">
-    
-                <h3>About</h3>
-                <p>New entrepreneurs often have a lot of questions, but don’t always have a mentor to ask. As an entrepreneur, whenever you need business advice, our volunteers are happy to help. By posting your questions, you can communicate directly and solve a problem.</p><br>
-                <p>As an experienced business owner you can help pay it forward just by installing MentorMe.</p>
-                
-            </div> <!-- end of top-about -->
-    
-            <img src="./assets/bridge.jpg" class="content-img js-img" alt="Bridge"/>
-    
-        </section> <!-- end of about -->
+          <p><a href="tel:1-212-555-5555">1-212-555-5555</a></p>
 
+          <p><a href="mailto: contact@mentorme.io">Send Email</a></p>
+          <div class="social-icons-hp">
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fab fa-facebook-square fa-5x"></i
+            ></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fab fa-instagram fa-5x"></i
+            ></a>
+            <a href="https://twitter.com" target="_blank"
+              ><i class="fab fa-twitter-square fa-5x"></i
+            ></a>
+          </div>
+        </div>
+        <!-- end of top-contact -->
 
-        <section id="mission" class="mission">
+        <img src="./assets/great.jpg" class="content-img js-img" alt="joy" />
+      </section>
+      <!-- end of contact -->
+    </div>
+    <!-- end of container home -->
 
-            <div class="bottom-mission content">
+    <footer>
+      <p>Copyright MentorMe! 2019</p>
+      <p><a href="#home">Top of the page</a></p>
+    </footer>
+  </body>
 
-                <h3>Mission</h3>
-                <p>“A mentor is someone who allows you to see the hope inside yourself.” — Oprah Winfrey.</p>
-                <p>Our mission is to connect entrepreneurs with the right mentors. Mentors who can lend an ear, a brain to pick, and push you in the right direction. Let’s create a positive and resourceful community for the future leaders of our world.</p>
-
-            </div> <!-- end of bottom-mission -->
-
-            <img src="./assets/joy.jpg" class="content-img js-img" alt="joy"/>
-
-        </section> <!-- end of mission -->
-
-
-        <section id="contact" class="contact">
-
-            <div class="top-contact content">
-
-                <h3>Contact</h3>
-                <p>Are you an entrepreneur looking for help? Are you a business owner looking to give help?</p>
-                  
-                <p>Please feel free to contact us:</p>
-                
-                <p>123 Ave 456 BLVD<br> New York, NY 10004</p>
-
-                <p><a href="tel:1-212-555-5555">1-212-555-5555</a></p>
-
-                <p><a href="mailto: contact@mentorme.io">Send Email</a></p>
-                <div class="social-icons-hp">
-                    <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-5x"></i></a>
-                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-5x"></i></a>
-                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square fa-5x"></i></a>
-                </div>
-                
-            </div> <!-- end of top-contact -->
-
-            <img src="./assets/great.jpg" class="content-img js-img" alt="joy"/>
-
-        </section> <!-- end of contact -->
-
-    </div> <!-- end of container home -->
-
-        <footer>
-
-                <p>Copyright MentorMe! 2019</p>
-                <p><a href="#home">Top of the page</a></p>
-        </footer>
-    
-
-</body>
-
-<script src="./JS/dropdown.js"></script>
-<script src="./JS/hover.js"></script>
-
+  <script src="./JS/dropdown.js"></script>
+  <script src="./JS/hover.js"></script>
 </html>
