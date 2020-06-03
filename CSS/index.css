@@ -215,12 +215,7 @@ p {
   max-width: 900px;
   width: 100%;
   margin: 0 auto;
-}
-
-.home {
-  width: 93%;
   text-align: center;
-  margin-top: 10%;
 }
 
 /*
@@ -300,11 +295,9 @@ CTA
   margin: 25px auto;
   padding: 14px 29px;
   border-radius: 4px;
-  width: 190px;
-  height: 50px;
   background-color: var(--cta-btn-color);
   border: 0px;
-  font-size: 3em;
+  font-size: 3rem;
   color: var(--font-color);
   font-weight: bold;
 }
@@ -313,6 +306,10 @@ CTA
   color: var(--second-bg-color);
   transition: all 0.4s ease 0s;
 }
+
+/*
+ Contact
+*/
 
 .contact a {
   text-decoration: none;
@@ -344,6 +341,17 @@ CTA
 */
 footer p {
   text-align: center;
+  background-color: var(--second-bg-color);
+  color: var(--font-color);
+}
+footer p a {
+  text-align: center;
+  color: var(--font-color);
+  text-decoration: none;
+}
+footer p a:hover {
+  text-align: center;
+  color: var(--link-color);
 }
 
 /*
@@ -352,7 +360,36 @@ Media Queries
 
 */
 
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1200px;
+  }
+  .contact p {
+    padding-top: 15px;
+  }
+  #social-icons-hp {
+    margin-top: 0;
+    padding: 0;
+    width: 40%;
+  }
+  .social-icons-hp a {
+    width: 0;
+    height: 100%;
+  }
+  .contact img {
+    margin-top: 0;
+  }
+}
+
 @media (min-width: 1024px) {
+  .main-navigation {
+    max-width: 1024px;
+  }
+  .container {
+    max-width: 1024px;
+    width: 90%;
+  }
+
   header h1 {
     margin-left: ;
   }
@@ -435,7 +472,7 @@ Media Queries
   }
   .about h3,
   .contact h3 {
-    margin-top: 20px;
+    margin-top: 25px;
   }
   .mission h3 {
     margin: 0;
@@ -443,11 +480,13 @@ Media Queries
   .contact p {
     margin-bottom: 0;
   }
+  .contact {
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 1023px) {
   .dropdown-content {
-    max-width: 1200px;
     width: 100%;
     position: absolute;
     display: flex;
@@ -455,20 +494,43 @@ Media Queries
     align-items: center;
     margin-top: 10px;
   }
+  .container {
+    margin-top: 10%;
+  }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+  .container {
+    width: 96%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-navigation h1 {
+    font-size: 8rem;
+  }
+  .cta .cta-btn {
+    width: 300px;
+
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 650px) {
   .main-navigation h1 {
     font-size: 6.5rem;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 580px) {
   .main-navigation h1 {
     font-size: 4.5rem;
   }
   .nav-flex img {
     width: 62%;
+  }
+  .cta h2 {
+    font-size: 2.8rem;
   }
 }
 
@@ -478,8 +540,34 @@ Media Queries
   }
 }
 
+@media (max-width: 414px) {
+  .main-navigation h1 {
+    font-size: 3.3rem;
+  }
+}
+
 @media (max-width: 375px) {
   .main-navigation h1 {
-    font-size: 3.4rem;
+    font-size: 2.8rem;
+  }
+  .nav-flex a {
+    width: 24%;
+    padding: 0;
+    margin: 0;
+  }
+  .cta h2 {
+    font-size: 2.5rem;
+  }
+}
+h3 {
+  font-size: 2.5rem;
+}
+.container {
+  margin-top: 20%;
+}
+
+@media (max-width: 320px) {
+  .main-navigation h1 {
+    font-size: 2rem;
   }
 }
