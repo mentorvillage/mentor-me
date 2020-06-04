@@ -360,10 +360,7 @@ Media Queries
 
 */
 
-@media (min-width: 1600px) {
-  .container {
-    max-width: 1200px;
-  }
+@media (max-width: 1600px) {
   .contact p {
     padding-top: 15px;
   }
@@ -386,8 +383,7 @@ Media Queries
     max-width: 1024px;
   }
   .container {
-    max-width: 1024px;
-    width: 90%;
+    margin-top: 100px;
   }
 
   header h1 {
@@ -561,9 +557,6 @@ Media Queries
 }
 h3 {
   font-size: 2.5rem;
-}
-.container {
-  margin-top: 20%;
 }
 
 @media (max-width: 320px) {
