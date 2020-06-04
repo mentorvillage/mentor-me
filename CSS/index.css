@@ -385,9 +385,6 @@ Media Queries
     margin-top: 100px;
   }
 
-  header h1 {
-    margin-left: ;
-  }
   .navbar {
     display: flex;
     justify-content: space-between;
