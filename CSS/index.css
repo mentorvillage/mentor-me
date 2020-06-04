@@ -367,7 +367,6 @@ Media Queries
   #social-icons-hp {
     margin-top: 0;
     padding: 0;
-    width: 40%;
   }
   .social-icons-hp a {
     width: 0;
@@ -492,6 +491,9 @@ Media Queries
   }
   .container {
     margin-top: 10%;
+  }
+  .top-contact {
+    margin-bottom: 40px;
   }
 }
 
