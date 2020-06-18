@@ -6,8 +6,8 @@ Showcasing our skills learned so far in Lambda School. Creating a community for 
 
 - [Screenshot](#screenshot)
 - [Pitch](#pitch)
-- [For the MVP Create](#for-the-mvp-create)
-- [Stretch](#stretch)
+- [Goal](#goal)
+- [Getting Started](#getting-started)
 
 ## Screenshot
 
